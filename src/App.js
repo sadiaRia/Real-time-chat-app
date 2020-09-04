@@ -2,6 +2,12 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header/index';
 import Sidebar from './components/Sidebar/index';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
   return (
